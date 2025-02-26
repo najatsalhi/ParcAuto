@@ -1,0 +1,76 @@
+.header1 {
+    border-radius: 0px 0px 16px 16px;
+    background-color: rgb(147, 207, 244);
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: space-between;
+    padding: 6px 30px 7px 16px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding-right: 40px;
+}
+@media (max-width: 991px) {
+    .heade1 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-right: 20px;
+    }
+}
+.logo {
+    display: flex;
+    gap: 15px;
+    font-size: 36px;
+    font-weight: 800;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.72px;
+}
+@media (max-width: 91px) {
+    .logo {
+      white-space: initial;
+    }
+}
+  
+.div-4 {           
+    font-family: 'Poppins', sans-serif;
+    flex-grow: 1;
+    color: white;
+    flex-basis: auto;
+    margin: auto 0;
+    text-align: left;
+}
+.img1 {
+    object-fit: auto;
+    object-position: center;
+    width:80px;
+}
+.di {
+    display: flex;
+    align-items: start;
+    gap: 70px;
+    font-size: 21px;
+    font-weight: 450;
+    color:white;
+    justify-content: space-between;
+    margin: auto 0;
+    padding: 20px;
+}
+
+.a0, .a1, .a2, .a3 {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .a0 div, .a1 div, .a2 div, .a3 div {
+    padding: 10px 0;
+  }
+  
+  /* Hover Effect */
+  .a0:hover div, .a1:hover div, .a2:hover div, .a3:hover div {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,214 @@
+.back {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  padding-bottom: 78px;
+  flex-direction: column;
+}
+
+h3 {
+  align-self: end;
+  text-align: center;
+  margin-top: 86px;
+  transform: translateY(-1rem);
+  margin-bottom: 150px;
+  font: 36px 'Lato',Helvetica, sans-serif;
+}
+
+.forget{
+  color: rgb(147, 207, 244);
+  align-self: end;
+  margin-top: 40px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+.forget a{
+  text-decoration:none;
+}
+
+#butn {
+  border-radius: 18px;
+  background-color: rgb(115, 191, 239);
+  width: 278px;
+  border:none;
+  height:56px;
+  max-width: 100%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 9px ;
+  font: 19px 'Poppins', sans-serif;
+  transform: translateY(10px);
+}
+
+#butn:hover {
+  background-color: #5db7ec;
+}
+
+form{
+  align-items: center;
+}
+.box {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 16px 40px rgba(154, 170, 207, 0.2);
+  align-self: center;
+  display: flex;
+  margin-top: 40px;
+  width: 450px;
+  height: 600px;
+  max-width: 100%;
+  flex-direction: column;
+  color: rgba(75, 75, 75, 1);
+  font-weight: 400;
+  padding: 80px;
+  max-height:max-content;
+}
+
+.name-label1,.name-label2 {
+  font-family: 16px 'Lato', sans-serif;
+  display:inline;
+  padding-right: 150px;
+  padding-left: 2px;
+  transition: all 0.3s ease;
+  padding-bottom: 15px;
+  padding-top: 60px;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.em{
+  margin-left:53px;
+}
+.ps,.em{
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 23px;
+  transform: translateY(20px);
+  align-self: end;
+  margin-left:253px;
+}
+.log1{
+  margin-top: 45px;
+}
+.log2{
+  margin-top: 75px;
+}
+.wrapper{
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(35, 35, 35,1);
+  width: 280px;
+  height: 56px;
+  position: absolute;
+  margin-top: 180px;
+}
+
+.name-label1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding-bottom: 20px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: rgba(75, 75, 75, 1);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* Floating effect when input is focused or has value */
+.name-input1:focus ~ .log1 .name-label1,
+.name-input1:not(:placeholder-shown) ~ .log1 .name-label1 {
+  font-size: 14px;
+  color: rgba(75, 75, 75, 1);
+  top: -1rem;
+}
+.name-label2 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding-bottom: 20px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: rgba(75, 75, 75, 1);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* Floating effect when input is focused or has value */
+.name-input2:focus ~ .log2 .name-label2,
+.name-input2:not(:placeholder-shown) ~ .log2 .name-label2 {
+  font-size: 14px;
+  color: rgba(75, 75, 75, 1);
+  top: -1rem;
+}
+.cont{
+  transform:translateY(30px);
+  margin-top: 50px;
+}
+.text-danger{
+  color: red;
+  font-size: 14px;
+  position:relative;
+  margin-top:35px;
+  margin-left: 10px;
+}
+
+/*forget password page style */
+
+.back2 {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  padding-bottom: 78px;
+  flex-direction: column;
+}
+.box2 {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 16px 40px rgba(154, 170, 207, 0.2);
+  align-self: center;
+  display: flex;
+  margin-top: 90px;
+  width: 450px;
+  height: 490px;
+  max-width: 100%;
+  flex-direction: column;
+  color: rgba(75, 75, 75, 1);
+  font-weight: 400;
+  padding: 80px;
+}
+h3{
+  align-self: end;
+  text-align: center;
+  margin-top: 86px;
+  transform: translateY(-1rem);
+  margin-bottom: 150px;
+  font: 36px 'Lato',Helvetica, sans-serif;
+}
+.cont2{
+  transform:translateY(30px);
+  margin-top: 10px;
+}
+#butn2 {
+  border-radius: 18px;
+  background-color: rgb(115, 191, 239);
+  width: 278px;
+  border:none;
+  height:56px;
+  max-width: 100%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 90px 0 30px 0;
+  padding: 9px ;
+  font: 20px 'Poppins', sans-serif;
+  transform: translateY(20px);
+}
+
+#butn2:hover {
+  background-color: #5db7ec;
+}

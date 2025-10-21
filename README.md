@@ -82,7 +82,3 @@ docker-compose down
 ## 👥 Auteur
 
 - Najat Salhi
-
-## 📄 Licence
-
-Ce projet est sous licence MIT
